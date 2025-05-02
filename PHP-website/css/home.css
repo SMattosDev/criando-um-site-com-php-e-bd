@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.cabecalho {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.navegacao {
+    display: flex;
+    gap: 20px;
+}
+
+.navegacao a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navegacao a:hover {
+    color: #ff6347;
+
+}
+
+main {
+    padding: 40px;
+    text-align: center;
+}
+
+main h1 {
+    color: #333;
+    font-size: 2em;
+}
+
+main p {
+    color: #555;
+    font-size: 1.1em;
+    margin-top: 10px;
+}

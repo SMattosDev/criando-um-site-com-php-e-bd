@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px #ccc;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+    width: 100%;
+    padding: 6px;
+    margin-top: 4px;
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 8px;
+    background-color: #28a745;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Estilos para as mensagens de feedback */
+.sucesso {
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: 10px auto;
+}
+
+.erro {
+    color: #721c24;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    padding: 10px;
+    border-radius: 4px;
+    max-width: 500px;
+    margin: 10px auto;
+}
